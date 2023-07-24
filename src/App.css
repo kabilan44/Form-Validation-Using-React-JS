@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: #FAACA8;
+  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+  
+}
+
+.formmm{
+  width: 40%;
+  margin: 0 auto;
+  font-size: 18px;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-control{
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+  margin-bottom: 20px;
+}
+.form-control label{
+  display: block;
+  text-align: left;
+  color: #3d4057;
+}
+.form-control input{
+  display: block;
+  border:2px solid #aaa;
+  width: 95%;
+  border-radius: 3px;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+}
+.formmm p{
+  color: red;
+  text-align: left;
+  font-size: 18px;
+}
+#gndr{
+  font-size: 18px;
+  color: #3d4057;
+}
+.form-controol{
+  text-align: left;
+  font-size: 16px;
+margin-bottom: 20px;
+
+}
+.App button{
+  padding: 10px;
+  width: 20%;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background-color:transparent;
+}
+button:hover{
+  background-color: #282c34;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: .3s;
+}
+@media only screen and (max-width: 768px) {
+  .App button{
+    width: 50%;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+  body{
+      width: 100vw;
+  }
+  
+  .form{
+      padding: 10px;
+  }
+  .form-group input{
+      border: 2px solid #aaa;
+      border-radius: 3px;
+      width: 95%;
+      padding: 5px;
+      font-size: 12px;
+      outline: none;
+  }
+  .form-g{
+      font-size: 14px;
+  }
+  .checkbox{
+      font-size: 14px;
+  }
+  .form-group::placeholder{
+      font-size: 11px;
+  }
+  .form-group p{
+      font-size: 14px;
+  }
+  .App button{
+    width: 50%;
+  }
+
+}
+@media only screen and (max-width: 350px) {
+  .App button{
+    width: 60%;
+  }
+  
+}
